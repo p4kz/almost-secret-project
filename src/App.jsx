@@ -1,8 +1,11 @@
+import Header from "./components/Header";
+import GlobalStyles from "./styles/global";
 
 export default function App() {
   return (
-    <div>
-      <h1>hello react denovo</h1>
-    </div>
+    <>
+      <GlobalStyles />
+      <Header />
+    </>
   )
 }
