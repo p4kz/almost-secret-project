@@ -13,7 +13,8 @@ export default createGlobalStyle`
     --black: #121214;
 
     --font-primary: #131316;
-    --bg: #f6f6f6;
+    --font-secundary: #e5e5e5;
+    --bg: #b5b5b5;
   }
 
   body {
