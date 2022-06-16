@@ -1,55 +1,69 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { 
-  House,
-  User,
-  Laptop,
-  BookBookmark,
-  EnvelopeSimpleOpen
-} from "phosphor-react";
+import {
+  FaTimes,
+  FaBars,
+} from 'react-icons/fa'
+
+import { IconContext } from 'react-icons/lib'
 
 import { 
   Nav,
+  NavBarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks,
+
 } from './styles'
 
+// import Button from '../../styles/global'
+
 export default function Navbar() {
+  const [click, setClick] = useState(false)
+  // burguer 
+  const handleClick = () => setClick(!click)
+
   return (
-    <Nav>
-      <a href="#house">
-        <House 
-          size={24} 
-          weight="bold"
-          color="#121214"
-        />
-      </a>
-      <a href="#profile">
-        <User 
-          size={24} 
-          weight="bold" 
-          color="#121214"
-        />
-      </a>
-      <a href="#skilss">
-        <BookBookmark 
-          size={24} 
-          weight="bold"
-          color="#121214"
-        />
-      </a>
-      <a href="#projects">
-        <Laptop 
-          size={24} 
-          weight="bold"
-          color="#121214"
-        />
-      </a>
-      <a href="#contact">
-        <EnvelopeSimpleOpen 
-          size={24} 
-          weight="bold" 
-          color="#121214"
-        />
-      </a>
-    </Nav>
+    <>
+      <IconContext.Provider value={{ color: '#fff'}}>
+      <Nav>
+        <NavBarContainer>
+          <NavLogo to="/">
+            P4K-STUDIO
+          </NavLogo>
+
+          <MobileIcon
+            onClick={handleClick}
+          >
+            {click ? <FaTimes /> : <FaBars />}
+          </MobileIcon>
+
+          <NavMenu onClick={handleClick} click={click}>
+            <NavItem>
+              <NavLinks to='/'>Sobre</NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks to='/skills'>Skills</NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks to='/hobbies'>Hobbies</NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks to='/training'>Formacão</NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks to='/projects'>Projetos</NavLinks>
+            </NavItem>
+          </NavMenu>
+        </NavBarContainer>
+      </Nav>
+      </IconContext.Provider>
+    </>
   )
 }
