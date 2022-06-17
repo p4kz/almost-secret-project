@@ -1,0 +1,147 @@
+.start {
+  min-height: 100vh;
+  background: #ffffff20;
+}
+
+.start__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+
+  padding: 30px 2rem 30px 2rem;
+  background: #ffffff40;
+
+
+  width: 1140px;
+  min-width: 250px;
+  margin: auto;
+}
+
+.start__info {
+  width: 768px;
+  min-width: 285px;
+}
+
+.start__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-mono);
+}
+
+.start__text {
+  font-size: 1.9rem;
+}
+
+.start__image {
+  /* width: 100%; */
+  /* min-width: 400px; */
+  max-height: 430px;
+}
+
+.start__image img {
+  height: 430px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.start__list {
+  display: flex;
+}
+
+.start__list {
+  margin: 30px 0 30px 0;
+}
+
+.start__links {
+  margin-right: 10px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  min-width: 75px;
+}
+
+.start__links:last-child {
+  margin-right: 0;
+}
+
+.start__links a {
+  display: flex;
+  align-items: center;
+}
+
+.start__icon {
+  margin-right: .5rem;
+}
+
+.start__links--projetos {
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: var(--black);
+}
+
+.start__links--projetos a {
+  color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+  .start__info {
+    max-width: 430px;
+    max-height: 100%;
+  }
+
+  .start__title {
+    font-size: 3.2rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .start__info {
+    text-align: center;
+  }
+
+  .start__wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .start__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .start__image img {
+    clip-path: circle(30.7% at 50% 32%);
+    max-width: 100%;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .start__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .start__links {
+    width: 30.33%;
+    margin-bottom: 1rem;
+  }
+
+  .start__links:nth-child(3) {
+    margin-right: 0;
+  }
+  
+  .start__links--projetos {
+    width: 100%;
+
+  }
+}
