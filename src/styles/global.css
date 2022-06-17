@@ -1,9 +1,20 @@
 :root {
+  --black: #121214;
+  --white: #e5e5e5;
+
+  --font-black: #121214;
+  --font-white: #e5e5e5;
   
+  --font-times: 'Times New Roman', Times, serif, monospace;
+  --font-mono: 'DM Mono', monospace;
+
+  font-size: 62.5%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: var(--font-times);
+}
+
+a:hover, button:hover {
+  cursor: pointer;
 }
