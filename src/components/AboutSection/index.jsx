@@ -5,7 +5,7 @@ import './styles.css'
 export default function AboutSection () {
   return (
     <>
-      <section>AboutSection</section>
+      <section className="maluco">AboutSection</section>
     </>
   )
 }
