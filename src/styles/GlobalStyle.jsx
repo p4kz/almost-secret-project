@@ -7,8 +7,10 @@ export default createGlobalStyle`
     --white: #e5e5e5;
     --blue: #0066cc;
     --green:#04d361;
-    --gray: #333;
     
+    --gray: #535353;
+    --gray-white: #979797;
+
     --black-alpha: #00000044;
 
     --font-black: #121214;
@@ -36,7 +38,6 @@ export default createGlobalStyle`
 
   a, button {
     transition: all .5s ease;
-
   }
 
   a:hover, button:hover {

@@ -3,7 +3,6 @@ import './styles/reset.css'
 import Header from './components/Header'
 import GlobalStyle from './styles/GlobalStyle'
 import AboutSection from './components/AboutSection'
-import SkillsSection from './components/AboutSection/SkillsSection'
 import HobbiesSection from './components/AboutSection/HobbiesSection'
 import AcademicSection from './components/AboutSection/AcademicSection'
 import ProjectsSection from './components/ProjectsSection'
@@ -18,9 +17,6 @@ export default function App() {
       <Header />
       <HomeSection/>
       <AboutSection />
-      <SkillsSection />
-      <HobbiesSection />
-      <AcademicSection />
       <ProjectsSection />
       <ContactSection />
       <Footer />
