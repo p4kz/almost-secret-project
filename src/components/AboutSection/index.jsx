@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills/index.jsx";
 
 import { 
   AboutBox, 
@@ -12,7 +13,7 @@ export default function AboutSection () {
       <AboutBox>
           <p className="about__title">about</p>
         <AboutWrap>
-          
+
           <AboutInfo>
             <div className="about__image">
               <div/>
@@ -31,6 +32,7 @@ export default function AboutSection () {
             </div>
           </AboutInfo>
 
+          <Skills />
         </AboutWrap>
       </AboutBox>
     </>
