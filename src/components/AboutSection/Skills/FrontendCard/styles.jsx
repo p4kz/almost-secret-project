@@ -7,7 +7,7 @@ export const FrontendCardBox = styled.div`
   color: var(--font-white);
   font-size: 1.3rem;
   width: 250px;
-  height: 287px;
+  min-height: 287px;
   margin: 0 auto 4rem auto ;
   padding: 2rem;
   text-align: center;

@@ -5,7 +5,7 @@ export const SkillsBox = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 500px;
+  min-height: 300px;
   padding: 3rem 0;
 
   p, li {

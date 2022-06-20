@@ -1,4 +1,5 @@
 import React from "react";
+import Hobbies from "./Hobbies/index.jsx";
 import Skills from "./Skills/index.jsx";
 
 import { 
@@ -33,6 +34,8 @@ export default function AboutSection () {
           </AboutInfo>
 
           <Skills />
+          
+          <Hobbies />
         </AboutWrap>
       </AboutBox>
     </>

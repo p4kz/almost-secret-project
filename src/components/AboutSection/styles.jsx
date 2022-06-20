@@ -17,6 +17,7 @@ export const AboutBox = styled.section`
     max-width: 1180px;
     width: 100%;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-bottom: .5rem;
     text-transform: uppercase;
   }
