@@ -33,9 +33,9 @@ export default function AboutSection () {
             </div>
           </AboutInfo>
 
-          <Skills />
-          
+          <Skills />         
           <Hobbies />
+          
         </AboutWrap>
       </AboutBox>
     </>
