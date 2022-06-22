@@ -1,10 +1,12 @@
 import React from "react";
+import Academic from "./Academic/index.jsx";
 import Hobbies from "./Hobbies/index.jsx";
 import Skills from "./Skills/index.jsx";
 
 import { 
   AboutBox, 
   AboutInfo, 
+  AboutRow, 
   AboutWrap, 
 } from "./styles.jsx";
 
@@ -33,8 +35,12 @@ export default function AboutSection () {
             </div>
           </AboutInfo>
 
-          <Skills />         
-          <Hobbies />
+          <Skills />
+
+          <AboutRow>
+            <Hobbies />
+            <Academic/>
+          </AboutRow>         
           
         </AboutWrap>
       </AboutBox>

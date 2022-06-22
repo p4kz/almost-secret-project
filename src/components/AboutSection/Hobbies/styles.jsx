@@ -4,14 +4,20 @@ export const HobbiesBox = styled.div`
   padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
-  max-width: 320px;
-  margin: 0 auto 0 auto;
+  width: 35%;
+  min-width: 278px;
+
+  @media screen and (max-width: 769px) {
+    width: 90%;
+    margin: auto;
+    min-width: 285px;
+  }
+
 `
 
 export const HobbiesCard = styled.ul`
   display: flex;
   flex-wrap: nowrap;
-  /* justify-content: center; */
 
   li {
     align-items: center;

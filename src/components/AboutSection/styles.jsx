@@ -106,3 +106,13 @@ export const AboutInfo = styled.div`
     }
   }
 `
+
+export const AboutRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  @media screen and (max-width: 769px) {
+    flex-direction: column;
+  }
+`
