@@ -52,7 +52,18 @@ export default createGlobalStyle`
     border: 1px solid var(--border-black);
     border-radius: .8rem;
   }
-  
+
+  textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+  }
 `
 
 export const Container = styled.div`

@@ -13,7 +13,7 @@ export default function App() {
     <>
       <GlobalStyle />
       <Header />
-      <HomeSection/>
+      <HomeSection />
       <AboutSection />
       <ProjectsSection />
       <ContactSection />
