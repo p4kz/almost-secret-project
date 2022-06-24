@@ -1,11 +1,17 @@
 import React from "react";
 
-import './styles.css'
+import { 
+  FooterBox
+} from "./styles.jsx";
 
 export default function Footer () {
   return (
     <>
-      <h2>Footer</h2>
+      <FooterBox>
+        <p className="footer__text">Com 💜</p>
+          <a className="footer__link" href="https://github.com/p4kz" target="_blank">p4kz
+        </a>
+      </FooterBox>
     </>
   )
 }

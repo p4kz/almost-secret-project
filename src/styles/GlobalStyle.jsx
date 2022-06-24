@@ -46,13 +46,6 @@ export default createGlobalStyle`
     filter: brightness(1.3);
   }
 
-  a:active, button:active {
-    background: var(--green);
-    color: var(--font-black);
-    border: 1px solid var(--border-black);
-    border-radius: .8rem;
-  }
-
   textarea {
     border: none;
     overflow: auto;
