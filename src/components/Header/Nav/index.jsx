@@ -1,26 +1,23 @@
 import React from "react";
 
-import { 
-  NavLi,
-  NavUl 
-} from "./styles";
+import { NavUl } from "./styles";
 
-export default function Nav ({ open }) {
+export default function Nav({ open }) {
   return (
     <>
       <NavUl open={open}>
-        <NavLi>
-          Home
-        </NavLi>
-        <NavLi>
-          Sobre
-        </NavLi>
-        <NavLi>
-          Portfolio
-        </NavLi>
-        <NavLi>
-          Contato
-        </NavLi>
+        <li className="nav__list">
+          <a className="nav__link" href="#" lang="en"> Home </a>
+        </li>
+        <li className="nav__list">
+          <a className="nav__link" href="#about"> Sobre </a>
+        </li>
+        <li className="nav__list">
+          <a className="nav__link" href="#projects"> Portifolio </a>
+        </li>
+        <li className="nav__list">
+          <a className="nav__link" href="#contact"> Contato </a>
+        </li>
       </NavUl>    
     </>
   )

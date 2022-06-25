@@ -1,41 +1,34 @@
 import styled from "styled-components";
 
 export const HeaderBox = styled.header`
+  background: var(--bg-secudary);
+  color: var(--font-white);
+  font-family: var(--font-mono);
   display: flex;
   justify-content: space-between;
-
+  max-width: 100vw;
+  padding: 1.5rem 1.8rem;
+  text-transform: uppercase;
+  z-index: 1050;
+  
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
-
-  z-index: 1050;
-  
-  padding: 1.5rem 1.8rem;
-
-  max-width: 100vw;
-
-  font-family: var(--font-mono);
-  text-transform: uppercase;
-
-  color: var(--font-white);
-  background: var(--black-alpha);
 `
 
 export const HeaderWrap = styled.div`
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
-  width: 100%;
   max-width: 1140px;
   min-width: 250px;
   margin: auto;
-`
+  width: 100%;
+  height: 27px;
 
-export const HeaderLogo = styled.h2`
-  font-weight: bolder;
-`
-
-export const HeaderNav = styled.nav`
+  .header__logo {
+    font-weight: bolder;
+    color: var(--bg-primary);
+  }
 `

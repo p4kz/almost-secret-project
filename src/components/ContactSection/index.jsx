@@ -29,7 +29,7 @@ export default function ContactSection () {
   
   return (
     <>
-      <ContactBox>
+      <ContactBox id="contact">
         <p className="project__title">Contact</p>
 
         <ContactWrap>

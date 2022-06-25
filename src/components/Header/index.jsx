@@ -4,8 +4,6 @@ import Burger from "./Burger";
 import {
   HeaderBox,
   HeaderWrap,
-  HeaderLogo,
-  HeaderNav,
 } from './styles'
 
 export default function Header () {
@@ -13,10 +11,10 @@ export default function Header () {
     <>
       <HeaderBox>
         <HeaderWrap>
-          <HeaderLogo>p4k-studio</HeaderLogo>
-          <HeaderNav>
+          <h2><a className="header__logo" href="#">p4k-studio</a></h2>
+          <nav>
             <Burger />
-          </HeaderNav>
+          </nav>
         </HeaderWrap>
       </HeaderBox >
     </>

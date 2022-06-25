@@ -13,13 +13,13 @@ import {
 export default function AboutSection () {
   return (
     <>
-      <AboutBox>
+      <AboutBox id="about">
           <p className="about__title">about</p>
         <AboutWrap>
 
           <AboutInfo>
             <div className="about__image">
-              <div/>
+              <div />
             </div>
 
             <div className="about__text">

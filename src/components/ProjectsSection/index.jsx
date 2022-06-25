@@ -10,7 +10,7 @@ import {
 export default function ProjectsSection () {
   return (
     <>
-      <ProjectsBox>
+      <ProjectsBox id="projects">
         <p className="project__title">Portifolio</p>
         <ProjectWrap>       
           <ProjectCard className="project-card__port">
@@ -23,12 +23,12 @@ export default function ProjectsSection () {
                 className="btn-card project-card__button--demo"
                 href="http://google.com" 
                 target="_blank"
-                > Demo
+              > Demo
               </a>
               <a className="btn-card project-card__button--code"
                 href="http://google.com" 
                 target="_blank"
-                > Code 
+              > Code 
               </a> 
             </div>
           </ProjectCard>
@@ -43,12 +43,12 @@ export default function ProjectsSection () {
                 className="btn-card project-card__button--demo"
                 href="http://google.com" 
                 target="_blank"
-                > Demo
+              > Demo
               </a>
               <a className="btn-card project-card__button--code"
                 href="http://google.com" 
                 target="_blank"
-                > Code 
+              > Code 
               </a> 
             </div>
           </ProjectCard>
@@ -63,12 +63,12 @@ export default function ProjectsSection () {
                 className="btn-card project-card__button--demo"
                 href="http://google.com" 
                 target="_blank"
-                > Demo
+              > Demo
               </a>
               <a className="btn-card project-card__button--code"
                 href="http://google.com" 
                 target="_blank"
-                > Code 
+              > Code 
               </a> 
             </div>
           </ProjectCard>
@@ -83,7 +83,7 @@ export default function ProjectsSection () {
                 className="btn-card project-card__button--demo"
                 href="http://google.com" 
                 target="_blank"
-                > Demo
+              > Demo
               </a>
               <a className="btn-card project-card__button--code"
                 href="http://google.com" 
@@ -103,7 +103,7 @@ export default function ProjectsSection () {
                 className="btn-card project-card__button--demo"
                 href="http://google.com" 
                 target="_blank"
-                > Demo
+              > Demo
               </a>
               <a className="btn-card project-card__button--code"
                 href="http://google.com" 

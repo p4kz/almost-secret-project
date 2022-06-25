@@ -28,7 +28,6 @@ export const Burger = styled.div`
     background: ${({ open }) => open ? '#555' : '#fff'};
     transition: all .3s linear;
 
-
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }

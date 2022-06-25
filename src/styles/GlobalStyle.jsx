@@ -3,6 +3,10 @@ import styled from "styled-components";
 
 export default createGlobalStyle`
   :root {
+    --bg-primary: #E5E5E5;
+    --bg-secudary: #101010f1;
+
+
     --black: #121214;
     --white: #e6e6e6;
     --blue: #0066cc;
@@ -30,7 +34,7 @@ export default createGlobalStyle`
     line-height: 1.5;
     background: var(--white);
     
-    /* background: url(https://wallpapercave.com/wp/wp6942344.jpg); */
+    /* background: url(https://i.imgur.com/A5dt0Ou.jpg); */
     background-image: linear-gradient();
     background-repeat: no-repeat;
     background-size: cover;
