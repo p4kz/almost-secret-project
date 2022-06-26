@@ -12,9 +12,8 @@ export default function StartSection () {
       <StartBox>
         <StartWrap>
           <div className="start__info">
-            <h2>Olá, me chamo Eric</h2>
-            <h2>e eu sou <strong lang="en">Web Developer</strong></h2>
-            <p>--- Abaixo você pode me conhecer melhor ---</p>
+            <h2 className="start__info--text">Olá, me chamo Eric <br/> e eu sou <strong lang="en">Web Developer</strong></h2>
+            <p className="start__info--description">--- Abaixo você pode me conhecer melhor ---</p>
           </div>
           <SocialMidia />
         </StartWrap>
