@@ -44,7 +44,7 @@ export const AboutInfo = styled.div`
     padding: 1rem 3rem;
     
     div {
-      background: url(${aboutImage}) center no-repeat;
+      background: url(${ aboutImage }) center no-repeat;
       background-size: cover;
       border: 1px solid #333;
       box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);        
@@ -62,21 +62,24 @@ export const AboutInfo = styled.div`
     max-width: 600px;
     padding: 1rem 3rem;
 
-
     h1, h2 , h3 {
       font-family: var(--font-mono);
     }
 
-    h1 {
+    span {
+      font-weight: bolder;
+    }
+
+    #about__name {
       font-size: 3rem;
     }
 
-    h2 {
+    .about__subname {
       color: var(--gray-white);
       font-size: 2.5rem;
     }
 
-    h3 {
+    .about__city {
       color: var(--gray);
       font-size: 2rem;
     }
@@ -88,9 +91,18 @@ export const AboutInfo = styled.div`
       padding-bottom: 1.4rem;
     }
 
-    p {
+    .about__text--description {
       font-size: 1.6rem;
       text-align: justify;
+    }
+
+    .about__anchor--oracle {
+      color: #fff;
+      font-weight: bolder;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -112,7 +124,7 @@ export const AboutRow = styled.div`
   flex-direction: row;
   justify-content: center;
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 `
