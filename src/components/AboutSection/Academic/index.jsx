@@ -14,14 +14,14 @@ export default function Academic() {
         <AcademicCard>
           <div className="academic__image--one"/>
           <div className="academic__info">
-            <h3 className="academic__name">
+            <h3 className="academic__name" lang="en">
               Oracle Next Education
             </h3>
             <p className="academic__date">
               2022 - Em andamento
             </p>
             <p className="academic__description">
-              Alura + Oracle - Formação Full-Stack  
+              Alura + <span lang="en">Oracle</span> - Formação <span lang="en">Full-Stack</span>  
             </p>
           </div>
         </AcademicCard>
@@ -29,14 +29,14 @@ export default function Academic() {
         <AcademicCard>
           <div className="academic__image--udemy"/>
           <div className="academic__info">
-            <h3 className="academic__name">
+            <h3 className="academic__name" lang="en">
             JavaScript e TypeScript
             </h3>
             <p className="academic__date">
               2022 - Em andamento
             </p>
             <p className="academic__description">
-              Prof.Luiz Otavio - Formação Full-Stack  
+              Prof.Luiz Otavio - Formação <span lang="en">Full-Stack</span>  
             </p>
           </div>
         </AcademicCard>
