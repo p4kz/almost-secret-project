@@ -50,7 +50,7 @@ export const SkillsCard = styled.div`
 
     .skills__subtitle {
       transition: 500ms;
-      color: rgba(55, 255, 255, 0.767);
+      color: rgba(55, 255, 255, 0.733);
       border-color: rgba(55, 255, 255, 0.733);
     }
   }
