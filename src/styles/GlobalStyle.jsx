@@ -7,6 +7,9 @@ export default createGlobalStyle`
     --bg-primary: #E5E5E5;
     --bg-secudary: #101010f1;
 
+    --font-black: #121214;
+    --font-white: #e5e5e5;
+
 
     --black: #121214;
     --white: #e6e6e6;
@@ -18,16 +21,13 @@ export default createGlobalStyle`
 
     --black-alpha: #00000044;
 
-    --font-black: #121214;
-    --font-white: #e5e5e5;
-
     --border-black: #121214;
     --border-white: #fff;
     
     --font-times: 'Times New Roman', Times, serif, monospace;
     --font-mono: 'DM Mono', monospace;
     font-size: 62.5%;
-  };
+  }
   
   body {
     font-size: 1.6rem;
@@ -62,4 +62,3 @@ export const Container = styled.div`
   padding-left: 1.8rem;
   padding-right: 1.8rem;
 `
-

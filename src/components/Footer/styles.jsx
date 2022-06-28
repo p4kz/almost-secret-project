@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterBox = styled.footer`
   align-items: center;
-  color: var(--black);
+  color: var(--font-white);
   display: flex;
   font-family: var(--font-mono);
   font-weight: 700;
@@ -12,16 +12,15 @@ export const FooterBox = styled.footer`
   height: 100px;
   min-width: 100%;
   justify-content: center;
+  transition: 500ms;
 
   .footer__link {
-    color: var(--black);
+    color: var(--font-white);
     margin-left: .5rem;
     text-decoration: none;
-    transition: 500ms;
   }
 
   .footer__link:hover {
     color: var(--green);
-    text-decoration: underline;
   }
 `

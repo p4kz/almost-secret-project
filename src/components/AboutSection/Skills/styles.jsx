@@ -41,7 +41,7 @@ export const SkillsCard = styled.div`
     box-shadow: none !important;
   }
 
-  #tilt:hover {
+  &:hover {
     .skills__title {
       transform: scale(1.15) translateZ(20px);
       transition: 300ms;

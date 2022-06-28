@@ -149,10 +149,6 @@ export const ProjectCard = styled.div`
   &:hover {
     box-shadow: rgba(55, 255, 255, 0.34) 0px 0px 15px;
 
-    .project-card__button--code {
-      box-shadow: rgba(55, 255, 255, 0.34) 0px 0px 15px; 
-    }
-
     .project-card__name {
       transform: scale(1.05) translateZ(20px);
       transition: 300ms;

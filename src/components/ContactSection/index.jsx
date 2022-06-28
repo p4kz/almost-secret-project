@@ -30,7 +30,12 @@ export default function ContactSection () {
   return (
     <>
       <ContactBox id="contact">
-        <p className="project__title">Contact</p>
+        <h2 className="contact__title">Contact</h2>
+        <p className="contact__description">
+          Se você tem algum feedback ou alguma ideia que a gente possa trabalhar junto <strong>mande uma mensagem</strong>.
+          <br />
+          <em>Envie uma mensagem anônima usando admin@admin.com como email :D</em>
+        </p>
 
         <ContactWrap>
           <form 
