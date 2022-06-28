@@ -35,6 +35,26 @@ export const SkillsCard = styled.div`
   padding: 2rem;
   text-align: center;
 
+  #tilt {
+    background: transparent;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+
+  #tilt:hover {
+    .skills__title {
+      transform: scale(1.15) translateZ(20px);
+      transition: 300ms;
+      text-shadow: rgba(55, 255, 255, 0.75) 0px 0px 15px;
+    }
+
+    .skills__subtitle {
+      transition: 500ms;
+      color: rgba(55, 255, 255, 0.767);
+      border-color: rgba(55, 255, 255, 0.733);
+    }
+  }
+
   .skills__subtitle, .skills__title {
     font-family: var(--font-mono);
   }
