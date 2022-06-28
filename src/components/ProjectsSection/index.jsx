@@ -11,7 +11,8 @@ export default function ProjectsSection () {
   return (
     <>
       <ProjectsBox id="projects">
-        <p className="project__title">Portifolio</p>
+        <h2 className="project__title">Portifolio</h2>
+        <p className="project__description">Aqui você pode ver meus projetos mais recentes</p>
         <ProjectWrap>       
           <ProjectCard className="project-card__port">
             <div className="project-card__info--box">
@@ -21,12 +22,12 @@ export default function ProjectsSection () {
             <div className="project-card__buttons--box">
               <a 
                 className="btn-card project-card__button--demo"
-                href="http://google.com" 
+                href="#" 
                 target="_blank"
               > Demo
               </a>
               <a className="btn-card project-card__button--code"
-                href="http://google.com" 
+                href="#" 
                 target="_blank"
               > Code 
               </a> 
@@ -41,12 +42,12 @@ export default function ProjectsSection () {
             <div className="project-card__buttons--box">
               <a 
                 className="btn-card project-card__button--demo"
-                href="http://google.com" 
+                href="https://a-deco.vercel.app/" 
                 target="_blank"
               > Demo
               </a>
               <a className="btn-card project-card__button--code"
-                href="http://google.com" 
+                href="https://github.com/p4kz/app-cod" 
                 target="_blank"
               > Code 
               </a> 
@@ -61,12 +62,12 @@ export default function ProjectsSection () {
             <div className="project-card__buttons--box">
               <a 
                 className="btn-card project-card__button--demo"
-                href="http://google.com" 
+                href="https://4k-p4kz.vercel.app/" 
                 target="_blank"
               > Demo
               </a>
               <a className="btn-card project-card__button--code"
-                href="http://google.com" 
+                href="https://github.com/p4kz/four-k" 
                 target="_blank"
               > Code 
               </a> 
@@ -81,12 +82,12 @@ export default function ProjectsSection () {
             <div className="project-card__buttons--box">
               <a 
                 className="btn-card project-card__button--demo"
-                href="http://google.com" 
+                href="https://feedget-two.vercel.app/" 
                 target="_blank"
               > Demo
               </a>
               <a className="btn-card project-card__button--code"
-                href="http://google.com" 
+                href="https://github.com/p4kz/feedget" 
                 target="_blank"
                 > Code 
               </a> 
@@ -101,19 +102,21 @@ export default function ProjectsSection () {
             <div className="project-card__buttons--box">
               <a 
                 className="btn-card project-card__button--demo"
-                href="http://google.com" 
+                href="https://dsmovie-p4kz.netlify.app/" 
                 target="_blank"
               > Demo
               </a>
               <a className="btn-card project-card__button--code"
-                href="http://google.com" 
+                href="https://github.com/p4kz/dsmovie" 
                 target="_blank"
                 > Code 
               </a> 
             </div>
           </ProjectCard>
 
-          <ProjectCard />
+          <ProjectCard>
+            <p className="project-card__comming">Alura geek <br></br>em breve</p>            
+          </ProjectCard>
         </ProjectWrap>
       </ProjectsBox>
     </>

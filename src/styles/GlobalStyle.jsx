@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export default createGlobalStyle`
   :root {
+    --bg-black: #121214;
     --bg-primary: #E5E5E5;
     --bg-secudary: #101010f1;
 
@@ -32,13 +33,7 @@ export default createGlobalStyle`
     font-size: 1.6rem;
     font-family: var(--font-times);
     line-height: 1.5;
-    background: var(--white);
-    
-    /* background: url(https://i.imgur.com/A5dt0Ou.jpg); */
-    background-image: linear-gradient();
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-black);
   }
 
   a, button {

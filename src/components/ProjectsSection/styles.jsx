@@ -8,8 +8,8 @@ export const ProjectsBox = styled.section`
   padding-right: 1.8rem;
 
   .project__title {
-    color: var(--font-black);
-    border-bottom: 2px solid var(--font-black);
+    color: var(--font-white);
+    border-bottom: 2px solid var(--border-white);
     font-weight: bolder;
     max-width: 1180px;
     margin-top: 1rem;
@@ -17,6 +17,11 @@ export const ProjectsBox = styled.section`
     width: 100%;
     padding-bottom: .5rem;
     text-transform: uppercase;
+  }
+
+  .project__description {
+    color: var(--font-white);
+    font-family: var(--font-mono);
   }
 `
 
@@ -40,13 +45,14 @@ export const ProjectWrap = styled.div`
 
 export const ProjectCard = styled.div`
   box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
-  border: 1px solid var(--border-black);
+  border: 1px solid var(--border-white);
   border-radius: 1rem;
   background: #fff;
   height: 200px;
   min-width: 170px;
   max-width: 400px;
   position: relative;
+  transition: all 500ms ease;
 
   &.project-card__cod {
     background: url(https://i.imgur.com/COp2AGt.png) center no-repeat;
@@ -132,4 +138,29 @@ export const ProjectCard = styled.div`
     width: 50%;
   }
 
+  .project-card__comming {
+    margin: 20% auto;
+    text-align: center;
+    font-weight: bolder;
+    font-family: var(--font-mono);
+
+  }
+
+  &:hover {
+    box-shadow: rgba(55, 255, 255, 0.34) 0px 0px 15px;
+
+    .project-card__button--code {
+      box-shadow: rgba(55, 255, 255, 0.34) 0px 0px 15px; 
+    }
+
+    .project-card__name {
+      transform: scale(1.05) translateZ(20px);
+      transition: 300ms;
+      text-shadow: rgba(55, 255, 255, 0.75) 0px 0px 15px;
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    min-width: 299px;
+  }
 `
