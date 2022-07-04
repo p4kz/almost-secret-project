@@ -11,13 +11,13 @@ export default function ProjectsSection () {
   return (
     <>
       <ProjectsBox id="projects">
-        <h2 className="project__title">Portifolio</h2>
+        <h2 className="project__title">Portfolio</h2>
         <p className="project__description">Aqui você pode ver meus projetos mais recentes</p>
         <ProjectWrap>       
           <ProjectCard className="project-card__port">
             <div className="project-card__info--box">
-              <h2 className="project-card__name">Portifolio</h2>
-              <p className="project-card__description">Desafio, Portifolio - ONE</p>
+              <h2 className="project-card__name">Portfolio</h2>
+              <p className="project-card__description">Desafio, Portfolio - ONE</p>
             </div>
             <div className="project-card__buttons--box">
               <a 

@@ -37,7 +37,7 @@ export default function AboutSection () {
                   href="https://www.oracle.com/br/education/oracle-next-education/" 
                   target="_blank">Oracle Next Education 
                 </a> para alcançar meu conhecimento <span lang="en">Full-stack </span>
-                e ta sendo a coisa mais legal que ja fiz, estou aprendendo muito com essa experiência e esse portifolio é um fruto disso, 
+                e ta sendo a coisa mais legal que ja fiz, estou aprendendo muito com essa experiência e esse portfolio é um fruto disso, 
                 estou muito agradecido pela oportunidade de estar aqui hoje. 
               </p>
             </div>
