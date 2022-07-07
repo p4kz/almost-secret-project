@@ -8,7 +8,7 @@ import {
 } from "./styles";
 
 
-export default function ContactSection () {
+export default function Contact() {
   const form = useRef()
 
   const sendEmail = (e) => {

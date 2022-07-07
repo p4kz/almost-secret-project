@@ -7,7 +7,7 @@ import {
 } from "./styles";
 
 
-export default function ProjectsSection () {
+export default function Projects() {
   return (
     <>
       <ProjectsBox id="projects">

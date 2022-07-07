@@ -10,7 +10,7 @@ import {
   AboutWrap, 
 } from "./styles.jsx";
 
-export default function AboutSection () {
+export default function About() {
   return (
     <>
       <AboutBox id="about">

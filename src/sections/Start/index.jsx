@@ -1,12 +1,12 @@
 import React from "react";
-import SocialMidia from "../SocialMidia";
+import SocialMidia from "../../components/SocialMidia";
 
 import { 
   StartBox, 
   StartWrap 
 } from "./styles";
 
-export default function StartSection () {
+export default function Start() {
   return (
     <>
       <StartBox>

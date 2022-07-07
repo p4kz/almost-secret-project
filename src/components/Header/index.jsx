@@ -6,12 +6,12 @@ import {
   HeaderWrap,
 } from './styles'
 
-export default function Header () {
+export default function Header() {
   return (
     <>
       <HeaderBox>
         <HeaderWrap>
-          <h2><a className="header__logo" href="#">p4k-studio</a></h2>
+          <h2><a className="header__logo" href="#">E</a></h2>
           <nav>
             <Burger />
           </nav>
