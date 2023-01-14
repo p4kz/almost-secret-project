@@ -14,7 +14,6 @@ export default function About() {
   return (
     <>
       <AboutBox id="about">
-          <p className="about__title">about</p>
         <AboutWrap>
 
           <AboutInfo>
